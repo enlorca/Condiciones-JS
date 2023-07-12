@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Ejercicio 3 - Password</title>
+</head>
+<body>
+
+    <div class="container" id="password">
+        <h4>Ingresa el password</h4>
+        <div id="numeros">
+            <input type="number" name="cantidad" min="0" max="9" value="0" id="pwInput1">
+            <input type="number" name="cantidad" min="0" max="9" value="0" id="pwInput2">
+            <input type="number" name="cantidad" min="0" max="9" value="0" id="pwInput3">
+        </div>
+        <button onclick="pwCheck()">Ingresar</button>
+        <p id="veredicto">[---]</p>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
